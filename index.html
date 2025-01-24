@@ -1,0 +1,164 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+	<style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+        } 
+
+        header { 
+            background-color: #ffffff; 
+            color: #000000; 
+            text-align: center; 
+        } 
+
+        nav { 
+            background-color: #242424; 
+            padding: 10px; 
+        } 
+
+        nav a { 
+            color: #fff; 
+            text-decoration: none; 
+            padding: 10px; 
+            margin-right: 10px; 
+            display: inline-block; 
+        } 
+
+        .container { 
+            display: flex; 
+            justify-content: space-between; 
+            max-width: 95%; 
+            margin: 0 auto; 
+            padding: 20px; 
+        } 
+
+        article p { 
+            text-align: justify; 
+        } 
+
+        main { 
+            flex: 2; 
+        } 
+
+        article { 
+            margin-bottom: 20px; 
+            padding: 10px 20px; 
+            border: 1px solid rgb(145, 145, 145); 
+            margin-right: 10px; 
+        } 
+
+        aside { 
+            flex: 1; 
+            background-color: #c9c9c9; 
+            padding: 10px; 
+        } 
+
+        footer { 
+            background-color: #242424; 
+            color: #fff; 
+            text-align: center; 
+            position: fixed; 
+            bottom: 0; 
+            width: 100%; 
+        } 
+
+        /* Style for images and videos */
+        .image-placeholder, .video-placeholder {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+		.video-placeholder {
+            width: 100%;
+        max-width: 500px;  /* Set a narrower max width */
+        height: auto;      /* Maintain aspect ratio */
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        display: block;
+        }
+    </style> 
+    <title>Aylward Middle School</title> 
+</head> 
+
+<body> 
+    <header> 
+		<img style="width: 200px; height: 200px; border-radius: 50px;" src="./image/logo.jpg" alt="">
+        <h1>AYLWARD MIDDLE SCHOOL</h1> 
+    </header> 
+
+    <nav> 
+        <a href="./index.html">Home</a> 
+        <a href="./content.html"> Students Resources</a>  
+        <a href="./form.html">Contact</a> 
+    </nav> 
+
+    <div class="container"> 
+        <main> 
+            <article> 
+                <h2>About AWS</h2> 
+                <p class="post-meta"> 
+                    Published on January 11 
+                </p> 
+                <img class="image-placeholder" src="image/aylward school.jpg" alt="HTML Image Description" />
+                <p> 
+					Happy 9th Anniversary to the Aylward School Family!
+
+					Nine years of nurturing young minds, fostering curiosity, and inspiring greatness. Nine years of laughter, learning, collaboration and love.
+					
+					We're proud of our journey so far, and we're grateful for the trust and support of our parents, students, and staff. Your dedication and passion have made Aylward School a beacon of excellence in education.
+					
+					Here's to many more years of shaping minds, touching hearts, and transforming lives! #AylwardSchoolTurns9 #9YearsOfExcellence #EducationWithLove
+                </p> 
+                <!-- Add video -->
+                <h3>Video: Welcome to Aylward Middle School</h3>
+                <video class="video-placeholder" controls>
+					<source src="video/Aylward school (@aylward_school_) • Instagram photos and videos.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+            </article> 
+
+			<article> 
+                <h2>End of the year party</h2> 
+                <p class="post-meta"> 
+                    Published on December 15, 2024 
+                </p> 
+                <img class="image-placeholder" src="image/party day.jpg" alt="HTML Image Description" />
+                <p> 
+					Future and Speculative Period: Middle School
+					"Blasting off into the holiday season...
+					 and beyond! Our Middle School students took us on a journey through time and space, imagining the possibilities
+					 of the future at our Aylward School Christmas party 
+                </p> 
+                <!-- Add video -->
+                <h3>Video: Welcome to Our School</h3>
+                <video class="video-placeholder" controls>
+					<source src="video/Resume.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+            </article> 
+        </main> 
+
+        <aside> 
+            <h2>Recent Posts</h2> 
+            <ul> 
+                <li><a href="#">About AWS</a></li> 
+                <li><a href="#">End of the year Party</a></li> 
+            </ul> 
+        </aside> 
+    </div> 
+
+    <footer> 
+        <p>© 2025 Aylward Middle School. All rights reserved.</p> 
+    </footer> 
+</body> 
+
+</html>
